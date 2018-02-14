@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("p").click(function() {
 
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+    $("#walrus-showing").fadeToggle();
+    $("#walrus-hidden").fadeToggle();
     });
     });
